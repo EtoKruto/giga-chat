@@ -1,0 +1,41 @@
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.avatar-username {
+  font-size: 10px;
+}
+
+.user-image {
+  width: clamp(10vw, 2vw + 1rem, 15vw);
+}
+
+.col-timestamp {
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.main-area {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+form {
+  flex: 0 0 auto;
+}
+
+#messages {
+  height: 80%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
